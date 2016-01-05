@@ -1,184 +1,287 @@
-                            * {
-                            margin: 0;
-                            padding: 0;
-                            box-sizing: border-box;
+                                      * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                input[type="submit"] {
+                    width: 80px;
+                    margin-top: .5rem;
+                    margin-bottom: 1rem;
+                }
+                
+                textarea {
+                    max-width: inherit;
+                    padding-bottom: 1rem;
+                    max-width: 95%;
+                    max-height: auto;
+                    margin-top: 30px;
+                    text-align: left;
+                    margin-left: 10px;
+                    margin-right: 27rem;
+                }
+                /* Chrome, Safari, Opera */
+                
+                @-webkit-keyframes mymove {
+                    from {
+                        background-color: #E03221;
+                    }
+                    to {
+                        background-color: blue;
+                    }
+                }
+                /* Standard syntax */
+                
+                @keyframes mymove {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+                
+                input {
+                    width: 70%;
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    height: 40px;
+                    font-family: 'Merriweather Sans', sans-serif;
+                    margin-top: 1rem;
+                }
+                
+                label {
+                    color: #FFE44C;
+                    font-size: 16px;
+                    font-family: 'Merriweather Sans', sans-serif;
+                }
+                
+                .button:hover {
+                    background-color: #FFA65A;
+                }
+                
+                .button {
+                    border: 3.5px solid #7F3B00;
+                }
+                
+                h1 {
+                    max-height: auto;
+                    padding: 1.5rem, 1.5rem, 1.5rem, 0rem;
+                    border-width: 7px;
+                    border-style: ridge;
+                    border-color: yellow;
+                    font-size: 2.25rem;
+                    max-width: 97%;
+                    height: auto;
+                    font-family: 'Russo One', sans-serif;
+                    font-stretch: ultra-expanded;
+                    color: white;
+                    margin-right: auto;
+                    /*margin-left: auto;*/
+                    margin-bottom: .5rem;
+                    text-align: center;
+                    -webkit-animation: mymove 5s infinite;
+                    /* Chrome, Safari, Opera */
+                    animation: mymove 5s infinite;
+                }
+                /* Chrome, Safari, Opera */
+                
+                @-webkit-keyframes mymove {
+                    from {
+                        background-color: #E03221;
+                    }
+                    to {
+                        background-color: blue;
+                    }
+                }
+                /* Standard syntax */
+                
+                @keyframes mymove {
+                    from {
+                        background-color: red;
+                    }
+                    to {
+                        background-color: green;
+                    }
+                }
+                
+                span {
+                    padding-bottom: .25rem;
+                    max-height: auto;
+                    color: #FFEA00;
+                    font-size: 1.1rem;
+                    font-style: italic;
+                    text-align: center;
+                    font-color: yellow;
+                    -webkit-animation: mymove 5s infinite;
+                    /* Chrome, Safari, Opera */
+                    animation: mymove 5s infinite;
+                    /* Chrome, Safari, Opera */
+                    @-webkit-keyframes mymove {
+                        from {
+                            font-color: #E03221;
                         }
-                        
-                        input[type="submit"] {
-                            width: 80px;
-                            margin-top: .5rem;
-                            margin-bottom: 1rem;
+                        to {
+                            font-color: blue;
                         }
-                        
-                        textarea {
-                            max-width: inherit;
-                            padding-bottom: 1rem;
-                            max-width: 102rem;
-                            max-height: margin-top: 3rem;
-                            margin-top: 8rem;
-                            text-align: left;
-                            margin-left: 2rem;
-                            margin-right: 27rem;
+                    }
+                    /* Standard syntax */
+                    @keyframes mymove {
+                        from {
+                            font-color: red;
                         }
-                        
-                        header {
-                            border-style: ridge;
-                            border-width: 7px;
-                            border-color: yellow;
-                            background-color: #CA7303;
-                            width: 100%;
-                            line-height: 5.5rem;
-                            -webkit-animation: mymove 5s infinite;
-                            /* Chrome, Safari, Opera */
-                            animation: mymove 5s infinite;
+                        to {
+                            font-color: green;
                         }
-                        /* Chrome, Safari, Opera */
-                        
-                        @-webkit-keyframes mymove {
-                            from {
-                                background-color: #E03221;
-                            }
-                            to {
-                                background-color: blue;
-                            }
-                        }
-                        /* Standard syntax */
-                        
-                        @keyframes mymove {
-                            from {
-                                background-color: red;
-                            }
-                            to {
-                                background-color: green;
-                            }
-                        }
-                        
-                        input {
-                            width: 70%;
-                            box-sizing: border-box;
-                            -moz-box-sizing: border-box;
-                            -webkit-box-sizing: border-box;
-                            height: 40px;
-                            font-family: 'Merriweather Sans', sans-serif;
-                            margin-top: 1rem;
-                        }
-                        
-                        label {
-                            color: #FFE44C;
-                            font-size: 16px;
-                            font-family: 'Merriweather Sans', sans-serif;
-                        }
-                        
-                        .button:hover {
-                            background-color: #FFA65A;
-                        }
-                        
-                        .button {
-                            border: 3.5px solid #7F3B00;
-                        }
-                        
-                        h1 {
-                            font-family: 'Russo One', sans-serif;
-                            font-size: 2.1rem;
-                            margin-left: 4%;
-                            margin-bottom: 1px;
-                            color: white;
-                        }
-                        
-                        h4 {
-                            font-family: 'Orbitron', sans-serif;
-                            font-size: 1.5rem;
-                            color: #D7E393;
-                            margin-left: 4%;
-                            margin-top: 0px;
-                            padding: 0px;
-                        }
-                        
-                        div {
-                            margin-left: 4%;
-                            margin-top: 20px;
-                            float: left;
-                            width: 40%;
-                        }
-                        /*--------------------------------------------------------------------------------------------------*/
-                        
-                        body {
-                            /*background-color: black;*/
-                            background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-                            background-color: #131313;
-                            background-size: 20px 20px;
-                        }
-                        /*===============================================*/
-                        
-                        @media only screen and (max-width: 450px) {
-                            h1 {
-                                padding-left: 30px;
-                                font-family: 'Source Serif Pro', serif;
-                            }
-                            label {
-                                display: none;
-                            }
-                        }
-                        
-                        body {
-                            /*background-color: black;*/
-                            background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-                            background-color: #131313;
-                            background-size: 20px 20px;
-                        }
-                        /*------------------------------------------------------------------------------------------------------*/
-                        
-                        image {
-                            max-width: 80%;
-                            height: auto;
-                        }
-                        
-                        div {
-                            margin-left: 30px;
-                            width: 100%;
-                            margin-top: 20px;
-                        }
-                        
-                        @media (min-width: 450px) and (max-width: 900px) {
-                            label {
-                                display: inline-block;
-                                width: 100%;
-                            }
-                        }
-                        
-                        textarea {
-                            max-width: inherit;
-                            height: auto;
-                        }
-                        
-                        body {
-                            /*background-color: black;*/
-                            background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-                            background-color: #131313;
-                            background-size: 20px 20px;
-                        }
-                        /*=======================================================*/
-                        
-                        @media all and (min-width: 900px) {
-                            label {
-                                display: inline-block;
-                                width: 25%;
-                            }
-                            #fname {
-                                max-width: 450px;
-                            }
-                            #lname {
-                                max-width: 450px
-                            }
-                            #email {
-                                max-width: 450px;
-                            }
-                            textarea {
-                                display: inline-block;
-                            }
-                            body {
-                                /*background-color: black;*/
-                                background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-                                background-color: #131313;
-                                background-size: 20px 20px;
-                            }
+                    }
+                }
+                
+                div {
+                    margin-left: .5%;
+                    margin-top: 20px;
+                    float: left;
+                    width: 40%;
+                }
+                /*====================================================================*/
+                
+                .masthead {
+                    float: left;
+                    max-height: 12.59rem;
+                }
+                
+                li {
+                    transition: all .9s ease-in-out;
+                    font-family: 'Bree Serif', serif;
+                    font-style: italic;
+                    color: #0404B4;
+                    text-decoration: none;
+                    padding-top: height: auto;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: black;
+                    font-family: 'Bree Serif', serif;
+                    align: left;
+                    list-style: none;
+                    background-color: #FFCF35;
+                    align-content: center;
+                    text-align: center;
+                }
+                
+                a:hover {
+                    transform: scale(1);
+                    color: #009eff;
+                }
+                
+                .mainnav {
+                    float: left;
+                    width: 98%;
+                    padding-top: 2.5rem;
+                    margin-top: .5rem;
+                    font-family: 'Bree Serif', serif;
+                    font-size: 1.7rem;
+                    font-weight: bold;
+                }
+                /*====================================================================*/
+                /*--------------------------------------------------------------------------------------------------*/
+                
+                body {
+                    /*background-color: black;*/
+                    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+                    background-color: #131313;
+                    background-size: 20px 20px;
+                }
+                /*===============================================tablet apps========================*/
+                
+                @media only screen and (max-width: 450px) {
+                    .masthead {
+                        max-width: 97%;
+                    }
+                    h1 {
+                        padding-left: 3px;
+                        /*font-family: 'Source Serif Pro', serif;*/
+                    }
+                    label {
+                        display: none;
+                    }
+                }
+                /*------------------------------------------------------------------------------------------------------*/
+                
+                div {
+                    margin-left: 10px;
+                    width: 97%;
+                    margin-top: 20px;
+                }
+                
+                @media (min-width: 450px) and (max-width: 900px) {
+                    label {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                    textarea {
+                        max-width: inherit;
+                        height: auto;
+                    }
+                    .mainnav ul {
+                        max-width: 100%;
+                    }
+                    .mainnav ul li {
+                        float: left;
+                        width: 100%;
+                        background-color: purple;
+                        font-size: 29px;
+                    }
+                    .mainnav li a {
+                        display: block;
+                        background-color: gold;
+                    }
+                }
+                /*=============================================desktop apps=========================*/
+                
+                @media all and (min-width: 900px) {
+                    .masthead {
+                        max-width: 97%
+                    }
+                    label {
+                        display: inline-block;
+                        width: 25%;
+                    }
+                    #fname {
+                        max-width: 450px;
+                    }
+                    #lname {
+                        max-width: 450px
+                    }
+                    #email {
+                        max-width: 450px;
+                    }
+                    #year {
+                        max-width: 100px;
+                    }
+                    #Vmake {
+                        max-width: 250px;
+                    }
+                    #model {
+                        max-width: 250px;
+                    }
+                    textarea {
+                        display: inline-block;
+                    }
+                    .masthead {
+                        margin-top: rem;
+                        width: 100%;
+                    }
+                    .mainnav {
+                        ;
+                        float: left;
+                        width: 100%;
+                        margin-left: 1rem;
+                    }
+                    .mainnav li {
+                        display: inline-block;
+                        width: 24%;
+                        padding: 0px;
+                        margin-bottom: 9rem;
+                    }
+                    label {}
+                }
