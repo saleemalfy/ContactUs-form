@@ -15,39 +15,62 @@
 
 <body>
 
-    <!--<div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-8">
-            <div class="col-xs-6 col-md-4">-->
+
     <header>
-        <h1>Affordable Green Parts</h1>
-        <h4>To Contact Us, fill out the form below and we'll get back to you soon.</h4>
-    </header>
+        <div class="wrapper">
+            <header class="masthead">
+                <h1>Affordable Green Parts<br><span>To Contact Us, fill out the form below and we'll get back to you soon.</span></h1></div>
+        </header>
 
 
-    <form action="process.aspx" method="post">
-        <div class="box">
-            <label for="FirstName">First Name</label>
-            <input type="text" id="fname" name="FirstName" title="Enter your First Name" class="md" placeholder="First name" required/>
-        </div>
-        <div class="box">
-            <label for="LastName">Last Name</label>
-            <input type="text" id="lname" name="LastName" title="Please enter your Last Name" class="md" placeholder="Last name" required/>
-        </div>
-        <div class="box">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" class="md" title="Please enter your Email Address" placeholder="email" required/>
-        </div>
+        <nav class="mainnav">
+            <ul>
+                <li><a href="http://www.google.com">AGP Front Page</a></li>
+                <li> <a href="http://saleemalfy.github.io/priceListResponsiveTable/">Price List</a></li>
+                <li><a href="http://www.google.com">Order Now</a></li>
+                <li><a href="http://www.google.com">Returns</a></li>
+            </ul>
+        </nav>
 
-        <textarea rows="24" cols="102" placeholder="TYPE YOUR MESSAGE HERE.
-Please note all inquiries about the availability of a part without payment of the request fee, will be disregarded.Thank you. " required></textarea>
+        <form action="process.aspx" method="post">
+            <div class="box">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="fname" name="FirstName" title="Enter your First Name" class="md" placeholder="First name" required/>
+            </div>
+            <div class="box">
+                <label for="LastName">Last Name</label>
+                <input type="text" id="lname" name="LastName" title="Please enter your Last Name" class="md" placeholder="Last name" required/>
+            </div>
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="md" title="Please enter your Email Address" placeholder="email" required/>
+            </div>
+
+            <div class="box">
+                <label for="year of your vehicle">Type your vehicles year of manufacture</label>
+                <input type="text" id="year" name="Year" class="md" title="Enter your vehicles year of manufacture" placeholder="Type year of vehicle" required/>
+            </div>
+            <div class="box">
+
+                <label for="MakeOfVehicle">Type make of your Vehicle</label>
+                <input type="text" id="Vmake" name="VehicleMake" title="Enter your vehicles make" class="md" placeholder="Make of vehicle" required/>
+            </div>
+            <div class="box">
+                <label for="Model">Type model of your vehicle</label>
+                <input type="text" id="model" name="model" title="Enter your vehicles make" class="md" placeholder="Model of vehicle" required/>
+            </div>
+
+
+
+            <textarea rows="24" cols="102" placeholder="Please type your message here together with your VIN number " required></textarea>
+            <!---->
+
+            <div>
+                <input id="saveForm" name="saveForm" type="submit" value="Submit" class="button">
+            </div>
+        </form>
         <!---->
-
-        <div>
-            <input id="saveForm" name="saveForm" type="submit" value="Submit" class="button">
-        </div>
-    </form>
-    <!---->
-    <br>
+        <br>
 
 </body>
 
